@@ -54,7 +54,7 @@ exports.circuitBreaker = {
 // 多进程增强模式apiclient配置
 exports.apiClient = {
   // 通过egg apiclient 完成对微服务信息的订阅功能
-  subMap: {
+  subscribe: {
     // 自定义foo，作为在service中获取订阅信息的key值
     foo: {
       // bar 是你需要订阅的微服务的vipAddress，一般和app name相同

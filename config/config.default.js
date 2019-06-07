@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 /**
  * egg-eureka-plugin default config
@@ -8,11 +8,11 @@
 exports.circuitBreaker = {
   timeout: 30000, // If our function takes longer than 30 seconds, trigger a failure
   errorThresholdPercentage: 50, // When 50% of requests fail, trip the breaker
-  resetTimeout: 30000, // After 30 seconds, try again.
-};
+  resetTimeout: 30000 // After 30 seconds, try again.
+}
 
 // exports.apiClient = {
-//   subMap: {
+//   subscribe: {
 //     foo: {
 //       dataId: 'bar',
 //     },
@@ -28,5 +28,5 @@ exports.eureka = {
     //   };
     //   done(requestOpts);
     // },
-  },
-};
+  }
+}

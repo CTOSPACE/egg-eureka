@@ -7,3 +7,6 @@ run/
 .DS_Store
 *.swp
 
+.travis.yml
+appveyor.yml
+

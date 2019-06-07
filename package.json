@@ -1,6 +1,6 @@
 {
-  "name": "egg-eureka-plugin",
-  "version": "1.0.2",
+  "name": "egg-xeureka",
+  "version": "1.0.1",
   "description": "register egg application to eureka",
   "eggPlugin": {
     "name": "eureka"
@@ -12,19 +12,21 @@
     "eureka"
   ],
   "dependencies": {
-    "eureka-js-client": "^4.4.2",
-    "opossum": "^1.9.0"
+    "eureka-js-client": "^4.5.0",
+    "opossum": "^1.11.1"
   },
   "devDependencies": {
     "autod": "^3.0.0",
     "autod-egg": "^1.0.0",
-    "egg": "^2.0.0",
-    "egg-bin": "^4.3.0",
-    "egg-ci": "^1.8.0",
-    "egg-mock": "^3.13.0",
-    "eslint": "^4.11.0",
-    "eslint-config-egg": "^5.1.0",
-    "webstorm-disable-index": "^1.2.0"
+    "egg": "^2.22.2",
+    "egg-bin": "^4.13.0",
+    "eslint": "^5.16.0",
+    "eslint-config-egg": "^7.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -49,12 +51,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HOTTIN/egg-eureka.git"
+    "url": "git+https://github.com/CTOSPACE/egg-eureka.git"
   },
   "bugs": {
-    "url": "https://github.com/HOTTIN/egg-eureka/issues"
+    "url": "https://github.com/CTOSPACE/egg-eureka/issues"
   },
-  "homepage": "https://github.com/HOTTIN/egg-eureka#readme",
-  "author": "chenx",
+  "homepage": "https://github.com/CTOSPACE/egg-eureka#readme",
+  "author": "lvling",
   "license": "MIT"
 }
