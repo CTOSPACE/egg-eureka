@@ -10,7 +10,7 @@ module.exports = app => {
       circuitBreakerConfig: app.config.circuitBreaker,
       logger: app.logger,
       curl: async (url, opts) => {
-        let ret = app.curl(url, opts)
+        let ret = await app.curl(url, opts)
         return ret
       }
     }))

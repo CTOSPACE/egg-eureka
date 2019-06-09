@@ -10,7 +10,7 @@ module.exports = agent => {
       cluster: agent.cluster,
       circuitBreakerConfig: agent.config.circuitBreakerConfig,
       curl: async (url, opts) => {
-        let ret = agent.curl(url, opts)
+        let ret = await agent.curl(url, opts)
         return ret
       },
       logger: agent.logger }))
