@@ -58,5 +58,8 @@
   },
   "homepage": "https://github.com/CTOSPACE/egg-eureka#readme",
   "author": "lvling",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "http://maven.batcloud.info/repository/npm/"
+  }
 }
