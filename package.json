@@ -1,6 +1,6 @@
 {
   "name": "egg-xeureka",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "register egg application to eureka",
   "eggPlugin": {
     "name": "eureka"
